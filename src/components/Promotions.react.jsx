@@ -13,7 +13,7 @@ const Promotions = (props) => {
     const getData = async () => {
       try {
         const response = await fetch(
-          `http://www.mocky.io/v2/5bc3b9cc30000012007586b7`
+          `https://www.mocky.io/v2/5bc3b9cc30000012007586b7`
         );
         if (!response.ok) {
           throw new Error(
