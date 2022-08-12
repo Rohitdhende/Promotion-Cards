@@ -122,7 +122,7 @@ const Promotions = (props) => {
           })}
       </div>
       {next < updateData?.length && (
-        <button onClick={handleMoreImage}>Load more</button>
+        <button onClick={handleMoreImage} className="load-more">Load more</button>
       )}
     </div>
   );
